@@ -108,7 +108,7 @@ position:relative;
 
 <div class="title"><h1>Mcjhs</h1></div>
 <div class="titlemenu">
-  <a href="http://www.mcjhs.tp.edu.tw/?q=zh-hant/node/1743" class="titletab">組織架構</a>
+  <a link="http://www.mcjhs.tp.edu.tw/?q=zh-hant/node/1743" class="titletab">組織架構</a>
   <a class="titletab">業務職掌</a>
   <a class="titletab">校長</a>
   <a class="titletab">家長會</a>
@@ -136,7 +136,9 @@ $('.titlemenu').css({'box-shadow':'0 0 15px 1px rgba(0,0,0,0.0)','height':'60px'
 $('.message').click(function() {
   window.open( $(this).attr('link'));
 });
-
+$('a').click(function() {
+  window.open( $(this).attr('link'));
+});
 </script>
       <script>
 $(function() {
