@@ -117,11 +117,16 @@ position:relative;
 </div>
   <div class="message" link="https://google.com">公告</div>
   <iframe width="1920" height="1080" src="https://www.youtube.com/embed/v_jF8kqBj6Y" frameborder="0"  id="video"></iframe>
-
+  <div id="txtcc"></div>
 <div class="co"></div>
 
+  
 <script>
+var textsize = '{"default":100,"scale": 30,"max":300,"min":50,"containerid":"txtcc","textcontainerid":"body"}' ;
+</script>
+<script src="https://erichsia7.github.io/text_size_controller/textsizecontroller.min.js"></script>
 
+<script>
 $(window).scroll(function(){
   if($(window).scrollTop() > 60) {
 $('.titlemenu').css({'box-shadow':'0 0 15px 1px rgba(0,0,0,0.05)','height':'45px','background':'rgba(255, 255, 255, 0.5)'});
